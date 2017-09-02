@@ -1,10 +1,4 @@
 {
-    "dependencies": {
-    "Microsoft.NETCore.App": {
-      "version": "1.1.0",
-      "type": "platform"
-    }
-  },
     "frameworks": {
         "netcoreapp1.1": {
             "dependencies": {
@@ -15,5 +9,9 @@
                 "Microsoft.VisualStudio.Web.BrowserLink": "1.1.2"
             }
         }
+    },
+
+    "buildOptions": {
+        "emitEntryPoint": true
     }
 }
