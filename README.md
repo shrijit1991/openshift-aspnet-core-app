@@ -1,0 +1,1 @@
+# openshift-aspnet-core-app
